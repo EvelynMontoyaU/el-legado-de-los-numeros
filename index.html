@@ -1,0 +1,1152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b0b12">
+  <meta name="description" content="Un museo digital e interactivo sobre Pierre-Simon Laplace y Sophie Germain: dos mentes que transformaron las matemáticas.">
+  <title>El legado de los números | Laplace & Germain</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="progress-line" id="progressLine"></div>
+  <div class="noise"></div>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="El legado de los números, inicio">
+      <span class="brand-mark">∑</span><span>ARCHIVO <b>MATEMÁTICO</b></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav class="main-nav" id="mainNav">
+        <a href="#explorar">Explorar</a>
+        <a href="#laplace">Laplace</a>
+        <a href="#germain">Germain</a>
+        <a href="#galeria">Galería</a>
+        <a href="#legado">Legado actual</a>
+        <a href="#recursos-notebook">Recursos IA</a>
+        <a href="#podcast">Podcast</a>
+        <a href="#memoria">Memoria</a>
+        <a href="#juego">Desafío</a>
+    </nav>
+    <a class="header-cta" href="#fuentes">Fuentes <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+      <div class="hero-content">
+        <div class="eyebrow"><span class="live-dot"></span> UN MUSEO DIGITAL DE LAS IDEAS</div>
+        <p class="hero-kicker">HISTORIAS QUE CAMBIARON LA FORMA DE PENSAR</p>
+        <h1>EL LEGADO<br>DE LOS <em>NÚMEROS.</em></h1>
+        <p class="hero-lead">Dos mentes extraordinarias. Dos caminos distintos.<br>Una misma pasión por descifrar el universo.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#explorar">Comenzar recorrido <span>↘</span></a><a class="text-link" href="#protagonistas">Conocer a los protagonistas <span>→</span></a></div>
+        <div class="hero-footnote"><span>01 / 02</span><span>MATEMÁTICAS · HISTORIA · CIENCIA</span><span>FRANCIA, S. XVIII–XIX</span></div>
+      </div>
+      <div class="hero-art" aria-label="Composición gráfica de órbitas y geometría matemática">
+        <div class="orbit-label label-a">PROBABILIDAD</div><div class="orbit-label label-b">ELASTICIDAD</div>
+        <div class="planet planet-main"><span>∫</span></div><div class="planet planet-small"></div>
+        <div class="orbit-ring ring-a"></div><div class="orbit-ring ring-b"></div><div class="orbit-ring ring-c"></div>
+        <div class="formula formula-a">∇²V = 0</div><div class="formula formula-b">xⁿ + yⁿ = zⁿ</div>
+        <div class="hero-art-caption">EL CONOCIMIENTO<br>NO TIENE FRONTERAS.</div>
+      </div>
+      <a class="scroll-cue" href="#explorar"><span></span> DESLIZA PARA DESCUBRIR</a>
+    </section>
+
+    <section class="intro-section section-wrap" id="explorar">
+      <div class="section-index">00 — EL RECORRIDO</div>
+      <div class="intro-grid">
+        <div><p class="eyebrow">MÁS QUE UNA BIOGRAFÍA</p><h2>Las matemáticas<br>también cuentan <em>historias.</em></h2></div>
+        <div class="intro-copy"><p>En este recorrido conocerás a Pierre-Simon Laplace, quien llevó el cálculo a las estrellas y ayudó a dar forma a la teoría de la probabilidad; y a Sophie Germain, quien abrió caminos en la teoría de números y explicó cómo vibran las superficies elásticas.</p><p>Explora sus vidas, experimenta con sus ideas y descubre por qué sus preguntas siguen presentes en la ciencia y la tecnología.</p></div>
+      </div>
+      <div class="stat-strip"><div><strong>1749—1827</strong><span>LA ÉPOCA DE LAPLACE</span></div><div><strong>1776—1831</strong><span>LA ÉPOCA DE GERMAIN</span></div><div><strong>2</strong><span>FORMAS DE TRANSFORMAR EL MUNDO</span></div></div>
+    </section>
+
+    <section class="duo-section" id="protagonistas">
+      <div class="section-wrap">
+        <div class="section-heading"><div><p class="eyebrow">01 — LOS PROTAGONISTAS</p><h2>Dos universos.<br><em>Dos legados.</em></h2></div><p class="heading-note">Selecciona una historia<br>y comienza a explorar.</p></div>
+        <div class="character-grid">
+          <a class="character-card laplace-card" href="#laplace">
+            <div class="character-top"><span>01 / ASTRONOMÍA Y PROBABILIDAD</span><span>↗</span></div>
+            <div class="portrait portrait-laplace">
+                <img
+                    src="img/pierre-6.png"
+                    alt="Ilustración de Pierre-Simon Laplace generada con IA"
+                    loading="lazy"
+                >
+                <span class="ai-image-credit">
+                    Imagen generada por mí con IA
+                </span>
+            </div>
+            <div class="character-bottom"><div><h3>Pierre-Simon<br>Laplace</h3><p>El matemático que quiso comprender el universo.</p></div><span class="round-arrow">↗</span></div>
+            <div class="character-years">1749 — 1827</div>
+          </a>
+          <a class="character-card germain-card" href="#germain">
+            <div class="character-top"><span>02 / TEORÍA DE NÚMEROS Y ELASTICIDAD</span><span>↗</span></div>
+            <div class="portrait portrait-germain">
+                <img
+                    src="img/germain-6.jpg"
+                    alt="Ilustración de Sophie Germain generada con IA"
+                    loading="lazy"
+                >
+                <span class="ai-image-credit">
+                    Imagen generada por mí con IA
+                </span>
+            </div>
+            <div class="character-bottom"><div><h3>Sophie<br>Germain</h3><p>La matemática que desafió los límites de su época.</p></div><span class="round-arrow">↗</span></div>
+            <div class="character-years">1776 — 1831</div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="profile-section laplace-profile" id="laplace">
+      <div class="section-wrap">
+        <div class="profile-overline"><span>02 — PERFIL HISTÓRICO</span><span>BEAUMONT-EN-AUGE → PARÍS</span></div>
+        <div class="profile-title-row"><div><p class="eyebrow">EL ARQUITECTO DEL COSMOS</p><h2>Pierre-Simon<br><em>Laplace.</em></h2></div><div class="profile-quote"><span>“</span><p>Lo que sabemos es poco.<br>Lo que no sabemos es inmenso.</p><small>— Frase atribuida a Laplace en el material de investigación</small></div></div>
+        <div class="profile-body">
+          <div class="profile-art biography-portrait laplace-art">
+            <img src="img/pierre-1.jpg" alt="Retrato histórico de Pierre-Simon Laplace" loading="lazy">
+            <div class="portrait-shade"></div><div class="art-caption">PIERRE-SIMON<br>LAPLACE</div>
+            <div class="art-equation">1749 — 1827 · FRANCIA</div>
+          </div>
+          <div class="bio-copy"><p class="eyebrow">1749 — 1827 · FRANCIA</p><h3>Una mente que miraba<br>hacia las estrellas.</h3>
+            <p>Pierre-Simon, marqués de Laplace, nació el 23 de marzo de 1749 en Beaumont-en-Auge, Normandía, Francia. Procedía de una familia vinculada al comercio de sidra y recibió su primera educación en una escuela benedictina. Más tarde estudió en la Universidad de Caen, donde descubrió su talento para las matemáticas.</p>
+            <p>Al trasladarse a París, una carta de recomendación le permitió acercarse al matemático Jean le Rond d’Alembert. Impresionado por sus capacidades, d’Alembert lo apoyó y Laplace consiguió un puesto como profesor en la École Militaire.</p>
+            <p>Vivió durante la Revolución Francesa y los cambios políticos que transformaron Europa. Trabajó en astronomía, física, cálculo y probabilidad. Fue una figura central de la ciencia francesa y recibió los títulos de conde y marqués.</p>
+            <div class="fact-pills"><span>Matemático</span><span>Físico</span><span>Astrónomo</span></div>
+          </div>
+        </div>
+        <div class="timeline-block">
+          <div class="subheading"><span>02.1 / LÍNEA DE TIEMPO</span><h3>Una vida en <em>movimiento.</em></h3></div>
+          <div class="timeline" id="laplaceTimeline">
+            <article class="timeline-item"><span class="timeline-date">1749</span><div><h4> Nace en Normandía</h4><p>El 23 de marzo nace en Beaumont-en-Auge, Francia.</p></div></article>
+            <article class="timeline-item"><span class="timeline-date">Años 1760</span><div><h4> Descubre las matemáticas</h4><p>Estudia en la escuela benedictina y en la Universidad de Caen.</p></div></article>
+            <article class="timeline-item"><span class="timeline-date">≈ 1768</span><div><h4> Llega a París</h4><p>D’Alembert reconoce su talento y lo impulsa académicamente.</p></div></article>
+            <article class="timeline-item"><span class="timeline-date">1796</span><div><h4> El sistema del mundo</h4><p>Publica <i>Exposition du système du monde</i> y presenta la hipótesis nebular.</p></div></article>
+            <article class="timeline-item"><span class="timeline-date">1799–1825</span><div><h4> Mecánica celeste</h4><p>Publica su obra monumental en cinco volúmenes sobre mecánica celeste.</p></div></article>
+            <article class="timeline-item"><span class="timeline-date">1812</span><div><h4> Teoría analítica de las probabilidades</h4><p>Publica una obra fundamental para el desarrollo de la probabilidad.</p></div></article>
+            <article class="timeline-item"><span class="timeline-date">1814</span><div><h4> El demonio de Laplace</h4><p>Expone una reflexión sobre determinismo y conocimiento del universo.</p></div></article>
+            <article class="timeline-item"><span class="timeline-date">1827</span><div><h4> Su legado continúa</h4><p>Muere en París el 5 de marzo, a los 77 años.</p></div></article>
+          </div>
+        </div>
+        <div class="contributions">
+          <div class="subheading"><span>02.2 / APORTES A LAS MATEMÁTICAS</span><h3>Ideas para explicar<br><em>lo complejo.</em></h3></div>
+          <div class="contribution-grid">
+            <article class="contribution-card"><span class="card-number">01</span><div class="math-symbol">∇²</div><h4>Ecuación y operador de Laplace</h4><p>La ecuación ∇²V = 0 describe situaciones de potencial en regiones sin fuentes ni sumideros. Es fundamental en el estudio de campos gravitatorios, eléctricos y fenómenos físicos.</p><button class="detail-toggle" aria-expanded="false">Ver explicación <span>＋</span></button><div class="detail-content"><p>El símbolo ∇² representa el operador laplaciano. En coordenadas cartesianas tridimensionales: ∇²V = ∂²V/∂x² + ∂²V/∂y² + ∂²V/∂z². Cuando esta suma es cero, se obtiene la ecuación de Laplace.</p></div></article>
+            <article class="contribution-card"><span class="card-number">02</span><div class="math-symbol">ℒ</div><h4>Transformada de Laplace</h4><p>Una herramienta que convierte funciones y ecuaciones diferenciales en expresiones algebraicas más sencillas, útil para analizar sistemas dinámicos.</p><button class="detail-toggle" aria-expanded="false">Ver explicación <span>＋</span></button><div class="detail-content"><p>Su forma habitual es ℒ{f(t)} = ∫₀∞ e⁻ˢᵗ f(t) dt. Se utiliza en ingeniería, circuitos eléctricos, control automático y procesamiento de señales. La denominación actual honra el trabajo de Laplace en métodos de integración.</p></div></article>
+            <article class="contribution-card"><span class="card-number">03</span><div class="math-symbol">P(A)</div><h4>Teoría analítica de la probabilidad</h4><p>Sistematizó métodos de probabilidad, trabajó con probabilidades inversas y desarrolló aplicaciones para interpretar observaciones y datos.</p><button class="detail-toggle" aria-expanded="false">Ver explicación <span>＋</span></button><div class="detail-content"><p>La regla clásica de Laplace se expresa como P(A) = casos favorables / casos posibles, siempre que los resultados sean equiprobables. Su trabajo también impulsó la inferencia estadística y el método de mínimos cuadrados.</p></div></article>
+            <article class="contribution-card"><span class="card-number">04</span><div class="math-symbol">σ</div><h4>Teorema de Moivre–Laplace</h4><p>Relaciona la distribución binomial con la distribución normal como aproximación bajo determinadas condiciones.</p><button class="detail-toggle" aria-expanded="false">Ver explicación <span>＋</span></button><div class="detail-content"><p>Este resultado permite aproximar probabilidades binomiales cuando el número de ensayos es grande y la probabilidad de éxito no está demasiado cerca de 0 o 1. Es un antecedente importante del desarrollo de la estadística moderna.</p></div></article>
+            <article class="contribution-card"><span class="card-number">05</span><div class="math-symbol">☼</div><h4>Mecánica celeste y funciones armónicas</h4><p>Aplicó el análisis matemático al movimiento de planetas y satélites, al problema de la gravitación y al estudio de la estabilidad del sistema solar.</p><button class="detail-toggle" aria-expanded="false">Ver explicación <span>＋</span></button><div class="detail-content"><p>En los cinco volúmenes de <i>Traité de mécanique céleste</i> reunió y amplió métodos matemáticos para describir movimientos celestes y perturbaciones gravitatorias.</p></div></article>
+            <article class="contribution-card"><span class="card-number">06</span><div class="math-symbol">∫</div><h4>Análisis y álgebra</h4><p>Trabajó con integrales definidas, ecuaciones diferenciales, determinantes y métodos de análisis matemático.</p><button class="detail-toggle" aria-expanded="false">Ver explicación <span>＋</span></button><div class="detail-content"><p>Su producción muestra cómo las herramientas del cálculo podían trasladarse a problemas concretos de mecánica, astronomía y física.</p></div></article>
+          </div>
+        </div>
+        <!-- juego -->
+        
+        <div class="worked-example laplace-dice-game">
+
+            <div class="dice-game-intro">
+                <p class="eyebrow">02.3 / EXPERIMENTA CON LAPLACE</p>
+
+                <h3>¿La probabilidad<br>se cumple?</h3>
+
+                <p>
+                    Lanza el dado y descubre cuántas veces obtienes
+                    un número par. ¡Comprueba la regla de Laplace jugando!
+                </p>
+
+                <div class="dice-theory">
+                    <span>PROBABILIDAD TEÓRICA</span>
+                    <strong>3 / 6 = 50%</strong>
+                    <small>Hay 3 resultados pares entre 6 posibles.</small>
+                </div>
+            </div>
+
+            <div class="dice-game-area">
+
+                <div class="dice-play">
+                    <div class="dice-face" id="diceFace"
+                        role="img" aria-label="Dado sin lanzar">
+                        <span class="dice-placeholder">?</span>
+                    </div>
+
+                    <button class="button button-primary"
+                            id="rollDie" type="button">
+                        Lanzar dado <span>⚄</span>
+                    </button>
+
+                    <button class="dice-reset" id="resetDie" type="button">
+                        Reiniciar experimento ↻
+                    </button>
+
+                    <div class="dice-feedback" id="diceFeedback" aria-live="polite">
+                        ¡Haz tu primer lanzamiento!
+                    </div>
+                </div>
+
+                <div class="dice-statistics">
+
+                    <span class="solution-label">
+                        RESULTADOS DE TU EXPERIMENTO
+                    </span>
+
+                    <div class="dice-stat-main">
+                        <div>
+                            <small>LANZAMIENTOS</small>
+                            <strong id="throwsCount">0</strong>
+                        </div>
+                        <div>
+                            <small>NÚMEROS PARES</small>
+                            <strong id="evenCount">0</strong>
+                        </div>
+                        <div>
+                            <small>NÚMEROS IMPARES</small>
+                            <strong id="oddCount">0</strong>
+                        </div>
+                    </div>
+
+                    <div class="probability-comparison">
+                        <div class="probability-title">
+                            <span>Tu probabilidad observada</span>
+                            <strong id="evenPercentage">0%</strong>
+                        </div>
+
+                        <div class="probability-bar">
+                            <div id="evenBar"></div>
+                        </div>
+
+                        <div class="probability-reference">
+                            <span>0%</span>
+                            <span>Referencia teórica: 50%</span>
+                            <span>100%</span>
+                        </div>
+                    </div>
+
+                    <div class="dice-history-container">
+                        <span class="solution-label">ÚLTIMOS LANZAMIENTOS</span>
+                        <div class="dice-history" id="diceHistory">
+                            <span class="history-empty">
+                                Tus resultados aparecerán aquí.
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="dice-conclusion" id="diceConclusion">
+                        <span>✦</span>
+                        <p>
+                            Comienza a lanzar el dado para comparar
+                            tus resultados con la probabilidad teórica.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="curiosity-block"><div class="subheading"><span>02.4 / DETRÁS DEL PERSONAJE - DATOS CURIOSOS</span><h3>Pequeñas historias,<br><em>grandes ideas.</em></h3></div><div class="curiosity-grid">
+          <article><span>01</span><h4>“No tuve necesidad de esa hipótesis”</h4><p>La anécdota cuenta que, al preguntarle Napoleón por qué no mencionaba a Dios en su obra sobre el universo, Laplace respondió con esta célebre frase. Se suele presentar como una muestra de su enfoque científico.</p></article>
+          <article><span>02</span><h4>El demonio de Laplace</h4><p>Imaginó un intelecto capaz de conocer la posición y velocidad de cada partícula del universo y, con ello, calcular pasado y futuro. Es un experimento mental sobre el determinismo.</p></article>
+          <article><span>03</span><h4>Una idea antes de su tiempo</h4><p>Consideró la posibilidad de cuerpos celestes tan densos que ni siquiera la luz pudiera escapar de su gravedad, una idea relacionada con el concepto posterior de agujero negro.</p></article>
+          <article><span>04</span><h4>La hipótesis nebular</h4><p>En su obra de 1796 expuso una explicación del origen del sistema solar a partir de una nebulosa en rotación, desarrollando una idea que también había sido propuesta por Kant.</p></article>
+        </div></div>
+      </div>
+    </section>
+
+    <section class="profile-section germain-profile" id="germain">
+      <div class="section-wrap">
+        <div class="profile-overline"><span>03 — PERFIL HISTÓRICO</span><span>PARÍS · FRANCIA</span></div>
+        <div class="profile-title-row"><div><p class="eyebrow">LA FUERZA DE UNA IDEA</p><h2>Sophie<br><em>Germain.</em></h2></div><div class="profile-quote"><span>“</span><p>Poco importa quién llega primero a una idea; lo significativo es hasta dónde puede llegar esa idea.</p><small>— Frase incluida en el material de investigación</small></div></div>
+        <div class="profile-body reverse">
+          <div class="profile-art biography-portrait germain-art">
+            <img src="img/germain-4.jpg" alt="Retrato ilustrado de Sophie Germain" loading="lazy">
+            <div class="portrait-shade"></div><div class="art-caption">MARIE-SOPHIE<br>GERMAIN</div>
+            <div class="art-equation">1776 — 1831 · FRANCIA</div>
+          </div>
+          <div class="bio-copy"><p class="eyebrow">1776 — 1831 · FRANCIA</p><h3>Una pasión que no aceptó<br>las barreras de su tiempo.</h3>
+            <p>Marie-Sophie Germain nació en París el 1 de abril de 1776, en una familia acomodada. Durante la Revolución Francesa, cuando tenía trece años, encontró en la biblioteca de su padre la historia de Arquímedes. Aquella lectura despertó su pasión por las matemáticas y comenzó a estudiar por su cuenta.</p>
+            <p>La École Polytechnique no admitía mujeres. Para acceder a los apuntes y presentar sus trabajos, Sophie utilizó el seudónimo masculino Antoine-Auguste Le Blanc. Su talento llamó la atención de Joseph-Louis Lagrange, quien se convirtió en su mentor al descubrir su identidad.</p>
+            <p>Mantuvo correspondencia con grandes matemáticos de su época, entre ellos Carl Friedrich Gauss. Sus investigaciones sobre teoría de números y elasticidad le dieron reconocimiento, aunque tuvo que enfrentar prejuicios y exclusiones por ser mujer.</p>
+            <div class="fact-pills"><span>Matemática</span><span>Física matemática</span><span>Filósofa</span></div>
+          </div>
+        </div>
+        <div class="timeline-block">
+          <div class="subheading"><span>03.1 / LÍNEA DE TIEMPO</span><h3>Una historia de <em>resistencia.</em></h3></div>
+          <div class="timeline">
+            <article class="timeline-item"><span class="timeline-date">1776</span><div><h4> Nace en París</h4><p>El 1 de abril nace Marie-Sophie Germain.</p></div></article>
+            <article class="timeline-item"><span class="timeline-date">1789</span><div><h4> Una lectura que lo cambia todo</h4><p>La historia de Arquímedes despierta su interés por las matemáticas.</p></div></article>
+            <article class="timeline-item"><span class="timeline-date">1794</span><div><h4> Aprende bajo otro nombre</h4><p>Utiliza el seudónimo Antoine-Auguste Le Blanc para acceder a materiales de la École Polytechnique.</p></div></article>
+            <article class="timeline-item"><span class="timeline-date">1799</span><div><h4> Lagrange descubre su talento</h4><p>Al conocer su identidad, se convierte en su mentor y defensor.</p></div></article>
+            <article class="timeline-item"><span class="timeline-date">1804–1807</span><div><h4> Correspondencia con Gauss</h4><p>Intercambia ideas con Gauss y revela su identidad en 1807.</p></div></article>
+            <article class="timeline-item"><span class="timeline-date">1811</span><div><h4> Investiga las placas vibrantes</h4><p>Participa en el concurso de la Academia sobre superficies elásticas.</p></div></article>
+            <article class="timeline-item"><span class="timeline-date">1816</span><div><h4> Reconocimiento de la Academia</h4><p>Gana el Gran Premio por su trabajo sobre elasticidad.</p></div></article>
+            <article class="timeline-item"><span class="timeline-date">Década de 1820</span><div><h4> Avances en teoría de números</h4><p>Desarrolla resultados vinculados al Último Teorema de Fermat y a los primos que llevan su nombre.</p></div></article>
+            <article class="timeline-item"><span class="timeline-date">1831</span><div><h4> Su legado permanece</h4><p>Fallece en París el 27 de junio, a los 55 años.</p></div></article>
+          </div>
+        </div>
+        <div class="contributions">
+          <div class="subheading"><span>03.2 / APORTES A LAS MATEMÁTICAS</span><h3>Romper límites,<br><em>abrir caminos.</em></h3></div>
+          <div class="contribution-grid">
+            <article class="contribution-card"><span class="card-number">01</span><div class="math-symbol">2p + 1</div><h4>Números primos de Sophie Germain</h4><p>Un número primo p recibe este nombre cuando 2p + 1 también es primo. Por ejemplo, 11 es primo y 2(11)+1 = 23 también es primo.</p><button class="detail-toggle" aria-expanded="false">Ver explicación <span>＋</span></button><div class="detail-content"><p>Algunos ejemplos son p = 2, 3, 5, 11 y 23, pues sus correspondientes valores 2p+1 son 5, 7, 11, 23 y 47, todos primos. Estos números están relacionados con resultados de teoría de números.</p></div></article>
+            <article class="contribution-card"><span class="card-number">02</span><div class="math-symbol">xⁿ+yⁿ</div><h4>Avances sobre el Último Teorema de Fermat</h4><p>Desarrolló un método que permitió demostrar resultados para una amplia clase de exponentes primos y contribuyó al estudio de la ecuación de Fermat.</p><button class="detail-toggle" aria-expanded="false">Ver explicación <span>＋</span></button><div class="detail-content"><p>El Último Teorema de Fermat plantea que no existen enteros positivos x, y, z que satisfagan xⁿ + yⁿ = zⁿ para n mayor que 2. El trabajo de Germain fue un avance importante, aunque no constituyó por sí solo la demostración completa, alcanzada por Andrew Wiles en 1995.</p></div></article>
+            <article class="contribution-card"><span class="card-number">03</span><div class="math-symbol">〰</div><h4>Teoría de la elasticidad</h4><p>Estudió matemáticamente las vibraciones de superficies y placas elásticas, buscando explicar los patrones que aparecen al hacerlas vibrar.</p><button class="detail-toggle" aria-expanded="false">Ver explicación <span>＋</span></button><div class="detail-content"><p>Su trabajo sobre placas vibrantes contribuyó al desarrollo de la física matemática de la elasticidad. En 1816 obtuvo el Gran Premio de la Academia de Ciencias de París por su memoria sobre este tema.</p></div></article>
+            <article class="contribution-card"><span class="card-number">04</span><div class="math-symbol">κ</div><h4>Geometría y curvatura</h4><p>Estudió propiedades geométricas de superficies y realizó aportes vinculados a la curvatura.</p><button class="detail-toggle" aria-expanded="false">Ver explicación <span>＋</span></button><div class="detail-content"><p>Su trabajo matemático dialogó con los avances de Gauss y otros investigadores sobre la geometría de superficies.</p></div></article>
+          </div>
+        </div>
+        <div class="worked-example germain-example">
+          <div><p class="eyebrow">03.3 / EXPERIMENTA CON LOS NÚMEROS</p><h3>¿Es un primo<br>de Sophie Germain?</h3><p>Escribe un número primo p y comprueba si 2p + 1 también es primo.</p><div class="prime-orbit">p <span>→</span> 2p + 1</div></div>
+          <div class="interactive-prime">
+            <label for="primeInput">INGRESA UN NÚMERO PRIMO</label><div class="prime-input-row"><input id="primeInput" type="number" min="2" step="1" value="11"><button id="checkPrime" class="button button-primary">Comprobar ↗</button></div>
+            <div class="prime-result" id="primeResult" aria-live="polite"><span class="result-icon">✦</span><strong>11 → 23</strong><p>11 y 23 son primos. ¡Es un primo de Sophie Germain!</p></div>
+            <p class="input-hint">Prueba con: 2, 3, 5, 7, 11, 13 o 23.</p>
+          </div>
+        </div>
+        <div class="curiosity-block">
+          <div class="subheading"><span>03.4 / DETRÁS DEL PERSONAJE - DATOS CURIOSOS</span><h3>Una vida que merece<br><em>ser contada.</em></h3></div>
+          <div class="curiosity-grid">
+            <article><span>01</span><h4>Un nombre prestado</h4><p>Para estudiar y compartir sus trabajos, firmó como Antoine-Auguste Le Blanc en una época en la que las mujeres no podían acceder a la École Polytechnique.</p></article>
+            <article><span>02</span><h4>Una mentora de sí misma</h4><p>Aprendió matemáticas de manera autodidacta y encontró apoyo en Lagrange cuando este descubrió la calidad de sus trabajos.</p></article>
+            <article><span>03</span><h4>Una carta que reveló su identidad</h4><p>Al preocuparse por la seguridad de Gauss durante las guerras napoleónicas, pidió que lo protegieran y le reveló quién era.</p></article>
+            <article><span>04</span><h4>Un reconocimiento histórico</h4><p>En 1816 ganó el Gran Premio de la Academia por su investigación sobre elasticidad. Su historia refleja tanto su capacidad como las barreras de género de su época.</p></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="gallery-section" id="galeria">
+      <div class="section-wrap">
+        <div class="section-heading">
+          <div><p class="eyebrow">04 — GALERÍA HISTÓRICA</p><h2>Rostros de una<br><em>historia matemática.</em></h2></div>
+          <p class="heading-note">Diez imágenes para recorrer<br>la memoria de sus protagonistas.</p>
+        </div>
+        <div class="gallery-toolbar">
+          <p>Selecciona una imagen para verla en grande.</p>
+          <div class="gallery-filters" role="group" aria-label="Filtrar galería">
+            <button class="gallery-filter active" data-filter="all" aria-pressed="true">Todas</button>
+            <button class="gallery-filter" data-filter="pierre" aria-pressed="false">Laplace</button>
+            <button class="gallery-filter" data-filter="germain" aria-pressed="false">Sophie Germain</button>
+          </div>
+        </div>
+        <div class="gallery-grid">
+          <button class="gallery-item" data-person="pierre" data-image="img/pierre-1.jpg" data-caption="Pierre-Simon Laplace · Retrato histórico"><img src="img/pierre-1.jpg" alt="Retrato pintado de Pierre-Simon Laplace" loading="lazy"><span><b>Laplace</b><small>Retrato histórico · 01</small></span></button>
+          <button class="gallery-item" data-person="pierre" data-image="img/pierre-2.jpg" data-caption="Pierre-Simon Laplace · Ilustración científica"><img src="img/pierre-2.jpg" alt="Ilustración de Laplace rodeado de elementos científicos" loading="lazy"><span><b>Laplace</b><small>Ilustración · 02</small></span></button>
+          <button class="gallery-item" data-person="pierre" data-image="img/pierre-3.jpg" data-caption="Pierre-Simon Laplace · Ilustración histórica"><img src="img/pierre-3.jpg" alt="Ilustración histórica de Laplace" loading="lazy"><span><b>Laplace</b><small>Ilustración · 03</small></span></button>
+          <button class="gallery-item" data-person="pierre" data-image="img/pierre-4.jpg" data-caption="Pierre-Simon Laplace · Retrato grabado"><img src="img/pierre-4.jpg" alt="Grabado de Pierre-Simon Laplace" loading="lazy"><span><b>Laplace</b><small>Grabado · 04</small></span></button>
+          <button class="gallery-item" data-person="pierre" data-image="img/pierre-5.jpg" data-caption="Pierre-Simon Laplace · Ilustración editorial"><img src="img/pierre-5.jpg" alt="Ilustración editorial de Laplace" loading="lazy"><span><b>Laplace</b><small>Ilustración · 05</small></span></button>
+          <button class="gallery-item" data-person="germain" data-image="img/germain-1.jpg" data-caption="Sophie Germain · Ilustración contemporánea"><img src="img/germain-1.jpg" alt="Ilustración contemporánea de Sophie Germain" loading="lazy"><span><b>Sophie Germain</b><small>Ilustración · 01</small></span></button>
+          <button class="gallery-item" data-person="germain" data-image="img/germain-2.png" data-caption="Sophie Germain · Retrato histórico"><img src="img/germain-2.png" alt="Retrato histórico de Sophie Germain" loading="lazy"><span><b>Sophie Germain</b><small>Retrato · 02</small></span></button>
+          <button class="gallery-item" data-person="germain" data-image="img/germain-3.jpg" data-caption="Sophie Germain · Imagen biográfica"><img src="img/germain-3.jpg" alt="Imagen biográfica de Sophie Germain" loading="lazy"><span><b>Sophie Germain</b><small>Imagen biográfica · 03</small></span></button>
+          <button class="gallery-item" data-person="germain" data-image="img/germain-4.jpg" data-caption="Sophie Germain · Retrato en blanco y negro"><img src="img/germain-4.jpg" alt="Retrato en blanco y negro de Sophie Germain" loading="lazy"><span><b>Sophie Germain</b><small>Retrato · 04</small></span></button>
+          <button class="gallery-item" data-person="germain" data-image="img/germain-5.jpg" data-caption="Sophie Germain · Ilustración artística"><img src="img/germain-5.jpg" alt="Representación artística de Sophie Germain estudiando" loading="lazy"><span><b>Sophie Germain</b><small>Ilustración · 05</small></span></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="impact-section" id="legado">
+      <div class="section-wrap">
+        <div class="section-heading"><div><p class="eyebrow">04 — EL LEGADO EN NUESTRO PRESENTE</p><h2>Sus ideas siguen<br><em>en movimiento.</em></h2></div><p class="heading-note">De los cálculos del siglo XIX<br>a la tecnología de hoy.</p></div>
+        <div class="impact-tabs" role="tablist" aria-label="Aplicaciones actuales">
+          <button class="impact-tab active" data-impact="laplace-impact" role="tab" aria-selected="true">Laplace</button>
+          <button class="impact-tab" data-impact="germain-impact" role="tab" aria-selected="false">Germain</button>
+        </div>
+        <div class="impact-panel active" id="laplace-impact">
+          <div class="impact-feature"><span class="impact-icon">⌁</span><div><small>01 / INGENIERÍA Y TELECOMUNICACIONES</small><h3>Transformada de Laplace</h3><p>Permite analizar circuitos eléctricos, sistemas de control automático y procesamiento de señales al convertir ecuaciones diferenciales en expresiones algebraicas más manejables.</p></div></div>
+          <div class="impact-feature"><span class="impact-icon">◉</span><div><small>02 / FÍSICA Y PROCESAMIENTO DE IMÁGENES</small><h3>Ecuación y operador laplaciano</h3><p>Se emplean en electromagnetismo, transferencia de calor, mecánica de fluidos y procesamiento de imágenes, por ejemplo, en técnicas de detección de bordes.</p></div></div>
+          <div class="impact-feature"><span class="impact-icon">▥</span><div><small>03 / CIENCIA DE DATOS E IA</small><h3>Probabilidad y estadística</h3><p>Las ideas de probabilidad e inferencia desarrolladas por Laplace forman parte de las herramientas conceptuales usadas en análisis de datos, aprendizaje automático y evaluación de riesgos.</p></div></div>
+          <div class="impact-feature"><span class="impact-icon">✧</span><div><small>04 / ASTRONOMÍA Y EXPLORACIÓN ESPACIAL</small><h3>Mecánica celeste</h3><p>Los modelos matemáticos del movimiento y la gravitación siguen siendo esenciales para estudiar órbitas, perturbaciones gravitatorias y trayectorias espaciales.</p></div></div>
+        </div>
+        <div class="impact-panel" id="germain-impact">
+          <div class="impact-feature"><span class="impact-icon">⌘</span><div><small>01 / SEGURIDAD DIGITAL</small><h3>Números primos y criptografía</h3><p>Los números primos son piezas importantes de muchos sistemas criptográficos. Los primos de Sophie Germain tienen propiedades estudiadas en teoría de números y en construcciones criptográficas específicas.</p></div></div>
+          <div class="impact-feature"><span class="impact-icon">〰</span><div><small>02 / INGENIERÍA CIVIL Y ARQUITECTURA</small><h3>Elasticidad de los materiales</h3><p>Las matemáticas de la elasticidad ayudan a modelar cómo se deforman los materiales bajo fuerzas, algo esencial para diseñar y analizar estructuras.</p></div></div>
+          <div class="impact-feature"><span class="impact-icon">◌</span><div><small>03 / CIENCIA DE MATERIALES</small><h3>Vibraciones y superficies</h3><p>El estudio de placas vibrantes y superficies elásticas forma parte de la física matemática que permite comprender el comportamiento de materiales y estructuras.</p></div></div>
+          <div class="impact-feature"><span class="impact-icon">✦</span><div><small>04 / HISTORIA DE LA CIENCIA</small><h3>Una puerta para otras mujeres</h3><p>Su trayectoria se convirtió en un referente para reconocer las contribuciones de las mujeres a la ciencia y reflexionar sobre las barreras que enfrentaron.</p></div></div>
+        </div>
+        <div class="impact-note"><span>✳</span><p><b>Una precisión histórica:</b> las investigaciones de Germain aportaron a la teoría de la elasticidad, un campo relevante para la ingeniería. No debe afirmarse que ella diseñó la Torre Eiffel ni que sus cálculos fueron usados directamente en su construcción.</p></div>
+      </div>
+    </section>
+
+
+    <!-- RECURSOS GENERADOS CON NOTEBOOKLM -->
+    <section class="notebook-section" id="recursos-notebook">
+
+        <div class="section-wrap">
+
+            <!-- ENCABEZADO -->
+            <div class="notebook-heading">
+                <div>
+                    <p class="eyebrow">RECURSOS CREADOS CON NOTEBOOKLM</p>
+                    <h2>El conocimiento<br>también se <em>visualiza.</em></h2>
+                </div>
+
+                <p class="heading-note">
+                    Explora las ideas de Laplace y Germain
+                    mediante infografías y contenido audiovisual.
+                </p>
+            </div>
+
+
+            <!-- APARTADO 1: INFOGRAFÍAS -->
+            <div class="notebook-subsection" id="infografias">
+
+                <div class="notebook-subheading">
+                    <span class="eyebrow">01 / INFOGRAFÍAS</span>
+                    <h3>Las matemáticas en una <em>mirada.</em></h3>
+                    <p>
+                        Dos recursos visuales para conocer sus vidas,
+                        descubrimientos y contribuciones matemáticas.
+                    </p>
+                </div>
+
+                <div class="notebook-grid">
+
+                    <!-- INFOGRAFÍA LAPLACE -->
+                    <article class="notebook-card">
+
+                        <div class="notebook-card-top">
+                            <span>PIERRE-SIMON LAPLACE</span>
+                            <span>INFOGRAFÍA 01</span>
+                        </div>
+
+                        <a
+                            class="notebook-infographic"
+                            href="img/infografia-pierre.png"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="Abrir infografía de Pierre-Simon Laplace">
+
+                            <img
+                                src="img/infografia-pierre.png"
+                                alt="Infografía sobre la vida y los aportes matemáticos de Pierre-Simon Laplace"
+                                loading="lazy">
+                        </a>
+
+                        <div class="notebook-card-info">
+                            <div>
+                                <span class="ai-resource-label">
+                                    GENERADA CON NOTEBOOKLM
+                                </span>
+                                <h4>Pierre-Simon Laplace</h4>
+                                <p>
+                                    El arquitecto del cosmos:
+                                    astronomía, probabilidad y mecánica celeste.
+                                </p>
+                            </div>
+
+                            <a
+                                href="img/infografia-pierre.png"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="notebook-open-link">
+                                Ampliar infografía ↗
+                            </a>
+                        </div>
+
+                    </article>
+
+
+                    <!-- INFOGRAFÍA SOPHIE -->
+                    <article class="notebook-card">
+
+                        <div class="notebook-card-top">
+                            <span>SOPHIE GERMAIN</span>
+                            <span>INFOGRAFÍA 02</span>
+                        </div>
+
+                        <a
+                            class="notebook-infographic"
+                            href="img/infografia-germain.png"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="Abrir infografía de Sophie Germain">
+
+                            <img
+                                src="img/infografia-germain.png"
+                                alt="Infografía sobre la vida y los aportes matemáticos de Sophie Germain"
+                                loading="lazy">
+                        </a>
+
+                        <div class="notebook-card-info">
+                            <div>
+                                <span class="ai-resource-label">
+                                    GENERADA CON NOTEBOOKLM
+                                </span>
+                                <h4>Sophie Germain</h4>
+                                <p>
+                                    Una mente extraordinaria:
+                                    teoría de números y elasticidad.
+                                </p>
+                            </div>
+
+                            <a
+                                href="img/infografia-germain.png"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="notebook-open-link">
+                                Ampliar infografía ↗
+                            </a>
+                        </div>
+
+                    </article>
+
+                </div>
+            </div>
+
+
+            <!-- APARTADO 2: VIDEOS GENERADOS CON IA -->
+            <div class="notebook-subsection notebook-videos" id="videos-notebook">
+
+                <div class="notebook-subheading">
+                    <span class="eyebrow">02 / VIDEOS</span>
+                    <h3>Historias que cobran <em>vida.</em></h3>
+                    <p>
+                        Descubre sus trayectorias y aportes mediante
+                        contenido audiovisual creado con NotebookLM.
+                    </p>
+                </div>
+
+                <div class="notebook-grid">
+
+                    <!-- VIDEO LAPLACE -->
+                    <article class="notebook-card notebook-video-card">
+
+                        <div class="notebook-video-frame">
+
+                            <video
+                                controls
+                                preload="metadata"
+                                playsinline
+                                aria-label="Video sobre Pierre-Simon Laplace">
+
+                                <source
+                                    src="video/pierre.mp4"
+                                    type="video/mp4">
+
+                                Tu navegador no soporta la reproducción de video.
+                            </video>
+
+                        </div>
+
+                        <div class="notebook-card-info">
+
+                            <div>
+                                <span class="ai-resource-label">
+                                    VIDEO GENERADO CON NOTEBOOKLM
+                                </span>
+
+                                <h4>El universo de Laplace</h4>
+
+                                <p>
+                                    Conoce la historia de un matemático
+                                    que buscó explicar el funcionamiento
+                                    del universo mediante las matemáticas.
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- VIDEO SOPHIE GERMAIN -->
+                    <article class="notebook-card notebook-video-card">
+
+                        <div class="notebook-video-frame">
+
+                            <video
+                                controls
+                                preload="metadata"
+                                playsinline
+                                aria-label="Video sobre Sophie Germain">
+
+                                <source
+                                    src="video/germain.mp4"
+                                    type="video/mp4">
+
+                                Tu navegador no soporta la reproducción de video.
+                            </video>
+
+                        </div>
+
+                        <div class="notebook-card-info">
+
+                            <div>
+                                <span class="ai-resource-label">
+                                    VIDEO GENERADO CON NOTEBOOKLM
+                                </span>
+
+                                <h4>La historia de Sophie Germain</h4>
+
+                                <p>
+                                    Descubre cómo una mujer desafió
+                                    las barreras de su época y dejó
+                                    una huella en las matemáticas.
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+            <div class="notebook-credit">
+                <span>✦</span>
+                <p>
+                    Las infografías y los videos de esta sección fueron
+                    elaborados con apoyo de NotebookLM a partir de
+                    los materiales de investigación del proyecto.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="media-section" id="podcast">
+      <div class="section-wrap">
+        <div class="section-heading"><div><p class="eyebrow">05 — ESCUCHA LA HISTORIA</p><h2>Dos voces.<br><em>Dos épocas.</em></h2></div><p class="heading-note">Podcast · episodios de 3 a 5 minutos</p></div>
+        <div class="podcast-grid">
+
+        <article class="podcast-card podcast-laplace">
+          <div class="podcast-visual">
+            <img src="img/pierre-3.jpg" alt="Pierre-Simon Laplace">
+            <small>EPISODIO 01</small>
+          </div>
+
+          <div class="podcast-info">
+            <span class="eyebrow">EL HOMBRE QUE CALCULÓ EL COSMOS</span>
+            <h3>La mente de Laplace</h3>
+            <p>Un viaje por la probabilidad, las órbitas y la búsqueda de leyes que expliquen el universo.</p>
+
+            <audio controls preload="none">
+              <source src="assets/audio/laplace.mp4" type="audio/mp4">
+              Tu navegador no soporta audio HTML5.
+            </audio>
+          </div>
+        </article>
+
+        <article class="podcast-card podcast-germain">
+          <div class="podcast-visual">
+            <img src="img/germain-5.jpg" alt="Sophie Germain">
+            <small>EPISODIO 02</small>
+          </div>
+
+          <div class="podcast-info">
+            <span class="eyebrow">LA MUJER QUE DESAFIÓ LAS REGLAS</span>
+            <h3>La fuerza de Sophie</h3>
+            <p>Una historia de curiosidad, perseverancia y descubrimientos matemáticos contra la exclusión.</p>
+
+            <audio controls preload="none">
+              <source src="assets/audio/sophie-germain.mp3" type="audio/mpeg">
+              Tu navegador no soporta audio HTML5.
+            </audio>
+          </div>
+        </article>
+
+      
+        <div class="video-section">
+
+            <div class="video-heading">
+                <span class="eyebrow">CONTENIDO AUDIOVISUAL</span>
+                <h3>Conoce sus historias en video</h3>
+                <p>Descubre la vida y los aportes de dos grandes mentes matemáticas.</p>
+            </div>
+
+            <div class="video-grid">
+
+                <!-- VIDEO DE LAPLACE -->
+                <article class="video-card">
+                    <div class="video-container">
+                        <iframe
+                            src="https://www.youtube.com/embed/nR638czxKJs"
+                            title="Video sobre Pierre-Simon Laplace"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+
+                    <div class="video-info">
+                        <span class="eyebrow">VIDEO 01 · PIERRE-SIMON LAPLACE</span>
+                        <h4>El hombre que calculó el cosmos</h4>
+                        <p>Un recorrido por su vida, sus descubrimientos y su legado científico.</p>
+                    </div>
+                </article>
+
+                <!-- VIDEO DE SOPHIE GERMAIN -->
+                <article class="video-card">
+                    <div class="video-container">
+                        <iframe
+                            src="https://www.youtube.com/embed/D6PeV6Yca8A"
+                            title="Video sobre Sophie Germain"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+
+                    <div class="video-info">
+                        <span class="eyebrow">VIDEO 02 · SOPHIE GERMAIN</span>
+                        <h4>Una mujer que desafió los límites</h4>
+                        <p>Conoce su historia y sus contribuciones al mundo de las matemáticas.</p>
+                    </div>
+                </article>
+              </div><!-- Cierre de podcast-grid -->
+            </div>
+        </div>
+      </div><!-- Cierre de section-wrap -->
+    </section>
+
+    <!-- JUEGO DE MEMORIA -->
+    <section class="memory-section" id="memoria">
+        <div class="section-wrap">
+
+            <div class="memory-heading">
+                <p class="eyebrow">06 — JUEGO DE MEMORIA</p>
+
+                <h2>El archivo de<br><em>la memoria.</em></h2>
+
+                <p>
+                    Seis historias, dos grandes matemáticos y doce cartas
+                    por descubrir. ¿Podrás conectar cada pista con su respuesta?
+                </p>
+            </div>
+
+            <div class="memory-container">
+
+                <div class="memory-topbar">
+
+                    <div class="memory-stat">
+                        <small>MOVIMIENTOS</small>
+                        <strong id="memoryMoves">0</strong>
+                    </div>
+
+                    <div class="memory-stat">
+                        <small>PAREJAS</small>
+                        <strong id="memoryPairs">0 / 6</strong>
+                    </div>
+
+                    <div class="memory-stat">
+                        <small>TIEMPO</small>
+                        <strong id="memoryTime">00:00</strong>
+                    </div>
+
+                    <button
+                        class="button button-primary memory-restart"
+                        id="memoryRestart"
+                        type="button">
+                        Mezclar de nuevo ↻
+                    </button>
+
+                </div>
+
+                <div class="memory-instructions">
+                    <span class="memory-instruction-icon">✦</span>
+                    <p>
+                        Voltea dos cartas por turno. Encuentra la relación
+                        entre la pista y la respuesta. ¡Completa las seis parejas!
+                    </p>
+                </div>
+
+                <div
+                    class="memory-grid"
+                    id="memoryGrid"
+                    aria-label="Tablero del juego de memoria">
+                </div>
+
+                <div
+                    class="memory-status"
+                    id="memoryStatus"
+                    aria-live="polite">
+                    El archivo está cerrado. ¡Descubre la primera pareja!
+                </div>
+
+                <div
+                    class="memory-complete"
+                    id="memoryComplete"
+                    hidden>
+
+                    <div class="memory-trophy">✦</div>
+
+                    <p class="eyebrow">ARCHIVO COMPLETADO</p>
+
+                    <h3>¡Has descubierto<br><em>sus historias!</em></h3>
+
+                    <p id="memoryFinalMessage">
+                        Has relacionado correctamente las seis parejas.
+                    </p>
+
+                    <button
+                        class="button button-primary"
+                        id="memoryPlayAgain"
+                        type="button">
+                        Volver a jugar ↻
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="memory-footer-note">
+                <span>PIERRE-SIMON LAPLACE</span>
+                <span>×</span>
+                <span>SOPHIE GERMAIN</span>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <section class="quiz-section" id="juego">
+      <div class="section-wrap">
+        <div class="quiz-heading"><p class="eyebrow">06 — JUEGO INTERACTIVO</p><h2>¿Cuánto has<br><em>descubierto?</em></h2><p>Responde las preguntas y demuestra que conoces el legado de estas dos mentes matemáticas.</p></div>
+        <div class="quiz-shell" id="quizShell">
+          <div class="quiz-top"><span>DESAFÍO MATEMÁTICO</span><span id="quizCounter">01 / 08</span></div>
+          <div class="quiz-progress"><span id="quizProgress"></span></div>
+          <div id="quizContent">
+            <div class="quiz-category">PREGUNTA 01 · LAPLACE</div><h3 id="questionText">¿En qué ciudad nació Pierre-Simon Laplace?</h3>
+            <div class="answer-list" id="answerList"></div>
+            <div class="quiz-feedback" id="quizFeedback" aria-live="polite"></div>
+            <div class="quiz-controls"><span id="quizScore">Aciertos: 0</span><button class="button button-primary" id="nextQuestion" disabled>Siguiente pregunta →</button></div>
+          </div>
+          <div class="quiz-finish hidden" id="quizFinish"><div class="finish-symbol">✦</div><p class="eyebrow">RECORRIDO COMPLETADO</p><h3 id="finalScore">¡Buen trabajo!</h3><p id="finalMessage"></p><button class="button button-primary" id="restartQuiz">Volver a jugar ↻</button></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ai-section" id="uso-ia">
+      <div class="section-wrap ai-grid">
+        <div><p class="eyebrow">07 — INTELIGENCIA ARTIFICIAL CON CRITERIO</p><h2>La IA es una<br>herramienta, no<br><em>la autora.</em></h2></div>
+        <div class="ai-copy"><p>Este proyecto utiliza herramientas de inteligencia artificial como apoyo para investigar, organizar, redactar, diseñar y construir recursos interactivos. La información se contrasto con fuentes confiables: una respuesta generada por IA no sustituye la verificación.</p>
+          <div class="ai-principles"><div><span>01</span><p><b>Verificar</b><br>Se reviso fechas, nombres, conceptos y afirmaciones históricas.</p></div><div><span>02</span><p><b>Reconocer</b><br>Se debe indicar cuándo una imagen o recurso fue generado con IA. En este caso son de internet.</p></div><div><span>03</span><p><b>Citar</b><br>Referenciar fuentes reales consultadas, no solamente herramientas de IA.</p></div></div>
+          </div>
+      </div>
+    </section>
+
+
+    <section class="sources-section" id="fuentes">
+        <div class="section-wrap">
+
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">09 — BIBLIOTECA Y REFERENCIAS</p>
+                    <h2>El conocimiento<br>se <em>documenta.</em></h2>
+                </div>
+                <p class="heading-note">
+                    Fuentes bibliográficas, recursos audiovisuales
+                    y herramientas utilizadas en el proyecto.
+                </p>
+            </div>
+
+            <div class="sources-columns">
+
+                <!-- PIERRE-SIMON LAPLACE -->
+                <div class="source-person">
+
+                    <h3>PIERRE-SIMON LAPLACE</h3>
+
+                   <h4 class="source-category">Bibliografía</h4>
+
+                    <ul class="apa-reference-list">
+                        <li>
+                            Biografías y Vidas. (2004).
+                            <i>Biografía de Pierre-Simon Laplace.</i>
+                            <a href="https://www.biografiasyvidas.com/biografia/l/laplace.htm" target="_blank" rel="noopener">
+                                https://www.biografiasyvidas.com/biografia/l/laplace.htm
+                            </a>
+                        </li>
+
+                        <li>
+                            Cheng, R. (2020).
+                            <i>Pierre-Simon Laplace: vida, logros y aportes</i> [Diagrama de flujo].
+                            GoConqr.
+                            <a href="https://www.goconqr.com/flowchart/24620092/untitled" target="_blank" rel="noopener">
+                                https://www.goconqr.com/flowchart/24620092/untitled
+                            </a>
+                        </li>
+
+                        <li>
+                            Cienciaes.com. (2009, 19 de abril).
+                            <i>Pierre Simon de Laplace, el genio zalamero.</i>
+                            <a href="https://cienciaes.com/biografias/2009/04/19/pierre-simon-de-laplace/" target="_blank" rel="noopener">
+                                https://cienciaes.com/biografias/2009/04/19/pierre-simon-de-laplace/
+                            </a>
+                        </li>
+
+                        <li>
+                            Encyclopedia of Mathematics. (s. f.).
+                            <i>Laplace, Pierre-Simon Marquis de.</i>
+                            <a href="https://encyclopediaofmath.org/wiki/Laplace%2C_Pierre-Simon_Marquis_de" target="_blank" rel="noopener">
+                                https://encyclopediaofmath.org/wiki/Laplace%2C_Pierre-Simon_Marquis_de
+                            </a>
+                        </li>
+
+                        <li>
+                            Gillispie, C. C. (2006).
+                            <i>Laplace, Pierre-Simon (1749–1827).</i>
+                            Routledge Encyclopedia of Philosophy.
+                            <a href="https://www.rep.routledge.com/articles/biographical/laplace-pierre-simon-1749-1827/v-1" target="_blank" rel="noopener">
+                                https://www.rep.routledge.com/articles/biographical/laplace-pierre-simon-1749-1827/v-1
+                            </a>
+                        </li>
+
+                        <li>
+                            Guldenpfennig, M., Bhakuni, U., &amp; Chapel, L. (s. f.).
+                            <i>Pierre Simon Laplace | Biography, Contributions &amp; Achievements.</i>
+                            Study.com.
+                            <a href="https://study.com/academy/lesson/pierre-simon-laplace-biography-quotes.html" target="_blank" rel="noopener">
+                                https://study.com/academy/lesson/pierre-simon-laplace-biography-quotes.html
+                            </a>
+                        </li>
+
+                        <li>
+                            Instituto Nacional de Estadística y Geografía. (2016).
+                            <i>Época moderna: siglos XVII y XVIII</i> (Historia de la estadística mundial, núm. 3).
+                            <a href="https://www.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/nueva_estruc/702825068615.pdf" target="_blank" rel="noopener">
+                                https://www.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/nueva_estruc/702825068615.pdf
+                            </a>
+                        </li>
+
+                        <li>
+                            O’Connor, J. J., &amp; Robertson, E. F. (1999).
+                            <i>Pierre-Simon Laplace (1749–1827).</i>
+                            MacTutor History of Mathematics, University of St Andrews.
+                            <a href="https://mathshistory.st-andrews.ac.uk/Biographies/Laplace/" target="_blank" rel="noopener">
+                                https://mathshistory.st-andrews.ac.uk/Biographies/Laplace/
+                            </a>
+                        </li>
+                    </ul>
+
+                    <h4 class="source-category">Fuentes de imágenes</h4>
+
+                    <ul class="apa-reference-list">
+                        <li>
+                            Napoleon Empire. (s. f.).
+                            <i>[Retrato de Pierre-Simon Laplace]</i> [Imagen].
+                            <a href="https://media.napoleon-empire.org/tableaux/laplace.png" target="_blank" rel="noopener">
+                                https://media.napoleon-empire.org/tableaux/laplace.png
+                            </a>
+                        </li>
+
+                        <li>
+                            Redondo, M. (2015, 23 de marzo).
+                            <i>Laplace, figura clave de la Ilustración francesa</i> [Ilustración].
+                            Principia.
+                            <a href="https://principia.io/2015/03/23/laplace-figura-clave-de-la-ilustracion-francesa.IjEwMyI/" target="_blank" rel="noopener">
+                                https://principia.io/2015/03/23/laplace-figura-clave-de-la-ilustracion-francesa.IjEwMyI/
+                            </a>
+                        </li>
+                    </ul>
+
+                    <p class="sources-note">
+                        Otras imágenes de Pierre-Simon Laplace fueron localizadas mediante
+                        Google Imágenes. No fue posible identificar la página de origen
+                        ni la autoría de todas ellas.
+                    </p>
+
+                    <h4 class="source-category">Fuente audiovisual</h4>
+
+                    <ul class="apa-reference-list">
+                        <li>
+                            Memito numerito. (2026, 15 de febrero).
+                            <i>Pierre Simon Laplace #historiadelasmatemáticas</i> [Video].
+                            YouTube.
+                            <a href="https://youtu.be/nR638czxKJs" target="_blank" rel="noopener">
+                                https://youtu.be/nR638czxKJs
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+
+
+                <!-- SOPHIE GERMAIN -->
+                <div class="source-person">
+
+                    <h3>SOPHIE GERMAIN</h3>
+
+                    <h4 class="source-category">Bibliografía</h4>
+
+                      <ul class="apa-reference-list">
+                          <li>
+                              López, J. M. (2026, 14 de noviembre).
+                              <i>Sophie Germain, la matemática autodidacta que se hizo pasar por hombre para tener voz.</i>
+                              ABC.
+                              <a href="https://www.abc.es/ciencia/sophie-germain-matematica-autodidacta-hizo-pasar-hombre-20261114023335-nt.html" target="_blank" rel="noopener">
+                                  https://www.abc.es/ciencia/sophie-germain-matematica-autodidacta-hizo-pasar-hombre-20261114023335-nt.html
+                              </a>
+                          </li>
+
+                          <li>
+                              Macho Stadler, M. (2017, 19 de septiembre).
+                              <i>Sophie Germain (1776–1831).</i>
+                              Mujeres con Ciencia.
+                              <a href="https://mujeresconciencia.com/2017/09/19/sophie-germain-1776-1831/" target="_blank" rel="noopener">
+                                  https://mujeresconciencia.com/2017/09/19/sophie-germain-1776-1831/
+                              </a>
+                          </li>
+
+                          <li>
+                              O’Connor, J. J., &amp; Robertson, E. F. (2020).
+                              <i>Sophie Germain (1776–1831).</i>
+                              MacTutor History of Mathematics, University of St Andrews.
+                              <a href="https://mathshistory.st-andrews.ac.uk/Biographies/Germain/" target="_blank" rel="noopener">
+                                  https://mathshistory.st-andrews.ac.uk/Biographies/Germain/
+                              </a>
+                          </li>
+
+                          <li>
+                              Rodríguez, M. (2018, 11 de marzo).
+                              <i>Sophie Germain, la extraordinaria matemática francesa que tuvo que mentir para que la tomaran en serio (y la ciencia se lo agradece).</i>
+                              BBC News Mundo.
+                              <a href="https://www.bbc.com/mundo/noticias-43264987" target="_blank" rel="noopener">
+                                  https://www.bbc.com/mundo/noticias-43264987
+                              </a>
+                          </li>
+
+                          <li>
+                              UNESCO. (s. f.).
+                              <i>Sophie Germain (Francia, 1776–1831).</i>
+                              Museo Virtual de la Ciencia.
+                              <a href="https://www.unesco.org/es/virtual-science-museum/women-science/sophie-germain" target="_blank" rel="noopener">
+                                  https://www.unesco.org/es/virtual-science-museum/women-science/sophie-germain
+                              </a>
+                          </li>
+                      </ul>
+
+                      <h4 class="source-category">Fuentes de imágenes</h4>
+
+                      <ul class="apa-reference-list">
+                          <li>
+                              Mathigon. (s. f.).
+                              <i>Marie-Sophie Germain</i> [Imagen en línea de tiempo].
+                              <a href="https://nl.mathigon.org/timeline/germain" target="_blank" rel="noopener">
+                                  https://nl.mathigon.org/timeline/germain
+                              </a>
+                          </li>
+
+                          <li>
+                              Matemáticas Almudena. (s. f.).
+                              <i>[Retrato de Sophie Germain]</i> [Imagen].
+                              <a href="https://matematicasalmudenacom.wordpress.com/wp-content/uploads/2009/06/21284-sophie.png" target="_blank" rel="noopener">
+                                  https://matematicasalmudenacom.wordpress.com/wp-content/uploads/2009/06/21284-sophie.png
+                              </a>
+                          </li>
+                      </ul>
+
+                      <p class="sources-note">
+                          Otras imágenes de Sophie Germain fueron localizadas mediante
+                          Google Imágenes. No fue posible identificar la página de origen
+                          ni la autoría de todas ellas.
+                      </p>
+
+                      <h4 class="source-category">Fuente audiovisual</h4>
+
+                      <ul class="apa-reference-list">
+                          <li>
+                              Memito numerito. (2026, 17 de febrero).
+                              <i>Sophie Germain #historiadelasmatemáticas</i> [Video].
+                              YouTube.
+                              <a href="https://youtu.be/D6PeV6Yca8A" target="_blank" rel="noopener">
+                                  https://youtu.be/D6PeV6Yca8A
+                              </a>
+                          </li>
+                      </ul>
+
+                </div>
+
+            </div>
+
+
+            <!-- HERRAMIENTAS DE INTELIGENCIA ARTIFICIAL -->
+            <div class="ai-tools-sources">
+
+                <div class="subheading">
+                    <span>HERRAMIENTAS DE APOYO</span>
+                    <h3>La tecnología al servicio<br>del <em>conocimiento.</em></h3>
+                </div>
+
+                <div class="ai-tools-grid">
+
+                    <article class="ai-tool-card">
+                        <span class="ai-tool-icon">✦</span>
+                        <div>
+                            <h4>ChatGPT</h4>
+                            <p>
+                                Utilizado como herramienta de apoyo para la
+                                organización de la información, elaboración
+                                y revisión de contenidos, construcción del
+                                código HTML, CSS y JavaScript y generación
+                                de recursos visuales mediante inteligencia artificial.
+                            </p>
+                            <a href="https://chatgpt.com/"
+                              target="_blank" rel="noopener">
+                                OpenAI · ChatGPT ↗
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="ai-tool-card">
+                        <span class="ai-tool-icon">♫</span>
+                        <div>
+                            <h4>NotebookLM</h4>
+                            <p>
+                                Utilizado para apoyar la elaboración de los
+                                audios del proyecto mediante la generación
+                                de resúmenes y conversaciones de audio
+                                basados en los materiales de investigación.
+                            </p>
+                            <a href="https://support.google.com/gemininotebook/answer/16212820?hl=es"
+                              target="_blank" rel="noopener">
+                                Google · Guía de generación de audio ↗
+                            </a>
+                        </div>
+                    </article>
+
+                </div>
+
+                <p class="ai-tools-note">
+                    Las imágenes históricas se consultaron en las fuentes
+                    indicadas. Las ilustraciones adicionales identificadas
+                    como Pierre-6 y Germain-6 fueron generadas con IA
+                    como parte del desarrollo del proyecto.
+                </p>
+
+            </div>
+
+            <p class="sources-note">
+                Las referencias se presentan agrupadas por matemático.
+                Los enlaces de imágenes corresponden a los recursos
+                consultados durante la investigación. Las herramientas
+                de inteligencia artificial se reconocen como apoyo
+                para la elaboración del proyecto y no como fuentes
+                bibliográficas de los hechos históricos.
+            </p>
+
+        </div>
+    </section>
+
+  </main>
+
+
+  <div class="gallery-lightbox" id="galleryLightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Imagen ampliada">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Cerrar imagen">×</button>
+    <button class="lightbox-prev" id="lightboxPrev" aria-label="Imagen anterior">‹</button>
+    <figure><img id="lightboxImage" src="" alt=""><figcaption id="lightboxCaption"></figcaption></figure>
+    <button class="lightbox-next" id="lightboxNext" aria-label="Imagen siguiente">›</button>
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-top"><a class="brand" href="#inicio"><span class="brand-mark">∑</span><span>ARCHIVO <b>MATEMÁTICO</b></span></a><p>Las ideas sobreviven<br>a quienes las imaginan.</p><a href="#inicio" class="back-top">VOLVER ARRIBA ↑</a></div>
+    <div class="footer-bottom"><span>EL LEGADO DE LOS NÚMEROS</span><span>PIERRE-SIMON LAPLACE · SOPHIE GERMAIN · BY: EVELYN MONTOYA</span><span>PROYECTO ACADÉMICO</span></div>
+  </footer>
+  <script src="js/app.js"></script>
+</body>
+</html>
